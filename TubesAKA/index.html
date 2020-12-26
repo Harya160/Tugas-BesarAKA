@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Tugas Besar AKA</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+        <nav>
+            <div class="array-inputs">
+                <p>Ukuran array:</p>
+                <input id="a_size" type="range" min=10 max=200 step=1 value=100>
+                <p>Kecepatan algorithm:</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=5>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="sort">
+                <h1>Insertion Sort</h1>
+                <div class="algos">
+                    <button id="a_generate">Insertion</button>
+                </div>
+            </div>
+        </div>
+        <div id="sort">
+                <h1>Shell Sort</h1>
+                <div class="algos">
+                    <button id="a_generate">Shell</button>
+                </div>
+            </div>
+        <div id="array_container">
+        </div>
+        
+    </section>
+    <footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/Shell_sort.js"></script>
+</body>
+</html>

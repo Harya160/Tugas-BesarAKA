@@ -1,0 +1,34 @@
+nav {
+  background-color:#000080;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 40%;
+  padding: 1%;
+}
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 5%;
+}
+nav .array-inputs #a_size {
+  padding: 4%;
+}
+nav .array-inputs #a_speed {
+  padding: 5%;
+}
+section {
+  padding: 1%;
+  background-color: #F0FFF0;
+  display: -ms-grid;
+  display: grid;
+}
+section #array_container {
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
